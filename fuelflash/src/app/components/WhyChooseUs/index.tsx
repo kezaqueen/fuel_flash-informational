@@ -30,11 +30,13 @@ const benefits = [
 export default function WhyChooseUs() {
   return (
     <section
+      id="benefits"
       className="
         w-full min-h-[30vh]
         bg-white
         py-8 sm:py-12 px-2 sm:px-8
         flex flex-col items-center
+        mt-20
       "
     >
       <h2 className="text-[#000000] 2xl:text-4xl text-2xl sm:text-3xl font-extrabold text-center mb-3 sm:mb-4 tracking-tight drop-shadow-sm whitespace-nowrap">
@@ -53,7 +55,7 @@ export default function WhyChooseUs() {
               alt={item.label}
               className="mb-2 "
             />
-            <h4 className="font-bold text-lg text-center mb-2 whitespace-nowrap 2xl:text-2xl ">{item.title}</h4>
+            <h4 className="font-bold text-lg text-center mb-2 whitespace-nowrap 2xl:text-2xl text-black ">{item.title}</h4>
    <p className="text-center text-[#333] text-base font-medium leading-snug 2xl:text-[125%]">
               {item.description}
             </p>
