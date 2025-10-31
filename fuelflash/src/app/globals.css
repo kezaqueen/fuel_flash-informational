@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #ffffff;
+    --background: #0a0a0a;
     --foreground: #ededed;
   }
 }
@@ -22,5 +22,15 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: nunito;
+  font-family: Nunito, ui-sans-serif, system-ui, sans-serif;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-text-fill-color: var(--foreground) !important;
+  -webkit-box-shadow: 0 0 0 1000px var(--background) inset !important;
+  caret-color: var(--foreground);
+  transition: background-color 5000s ease-in-out 0s !important;
 }
