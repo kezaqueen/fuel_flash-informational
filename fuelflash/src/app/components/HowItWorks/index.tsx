@@ -13,14 +13,14 @@ export function HowItWorks() {
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mb-[-120px] md:mb-[-140px] relative z-10 max-w-5xl mx-auto px-4">
           <div className="flex flex-col items-center">
             <img
-              src="/images/phone 1.png"
+              src="/Images/phone 1.png"
               alt="Onboarding"
               className="w-full max-w-[180px] h-auto  drop-shadow-2xl" 
             />
           </div>
           <div className="flex flex-col items-center">
             <img
-              src="/images/phone 2.png"
+              src="/Images/phone 2.png"
               alt="Subscribe"
               className="w-full max-w-[180px] h-auto drop-shadow-2xl"
             />
@@ -53,7 +53,7 @@ export function HowItWorks() {
               </h3>
             </div>
             <p className="text-white font-normal sm:text-lg sm:leading-loose md:text-xl md:leading-loose xl:text-lg xl:leading-loose 2xl:text-[20px] 2xl:leading-snug">
-              Dial : *384*20404#
+              Dial : *384*33121#
             </p>
           </div>
           <div className="flex flex-col items-center text-center">
